@@ -4,6 +4,9 @@
     --bittersweet: rgb(237, 106, 90);
     --bittersweet-50: rgb(237 106 90 / 50%);
     --bittersweet-25: rgb(237 106 90 / 25%);
+    --lemon-chiffon: rgb(244, 241, 187);
+    --lemon-chiffon-50: rgb(244 241 187 / 50%);
+    --lemon-chiffon-25: rgb(244 241 187 / 25%);
     --ash-gray: rgb(155, 193, 188);
     --ash-gray-50: rgb(155 193 188 / 50%);
     --ash-gray-25: rgb(155 193 188 / 25%);
@@ -25,7 +28,10 @@ body {
 }
 
 main {
-    padding: 70px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 74px;
+    margin-right: 74px;
     flex: 1;
 }
 
