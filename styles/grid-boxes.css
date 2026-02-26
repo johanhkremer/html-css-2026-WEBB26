@@ -1,21 +1,18 @@
 .box-container {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
+    border: 1px black solid;
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr 100px;
+    grid-template-rows: 1fr 1fr 300px 1fr;
 }
 
 .box-default {
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    width: 100px;
-    height: 100px;
-
 }
 
 #box-1 {
     background-color: var(--bittersweet);
+    grid-row: span 4;
 }
 
 #box-2 {
