@@ -38,7 +38,11 @@ main {
 nav {
     background-color: var(--verdigris);
     padding: 8px;
+}
 
+header {
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
