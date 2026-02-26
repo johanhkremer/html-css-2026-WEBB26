@@ -1,0 +1,17 @@
+.card-container {}
+
+.card {
+    margin-bottom: 8px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ash-gray {
+    background-color: var(--ash-gray-25);
+    border: 2px solid var(--ash-gray);
+}
+
+.bittersweet {
+    background-color: var(--bittersweet-25);
+    border: 2px solid var(--bittersweet);
+}
