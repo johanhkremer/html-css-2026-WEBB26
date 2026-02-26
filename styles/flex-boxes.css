@@ -1,31 +1,30 @@
 .box-container {
     border: 1px solid black;
     display: flex;
-    flex-wrap: wrap;
-    width: 200px;
 }
 
 .box-default {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    width: 100px;
-    height: 100px;
 }
 
 #box-1 {
     background-color: var(--bittersweet);
+    flex: 2;
 }
 
 #box-2 {
     background-color: var(--ash-gray);
+    flex: 1;
 }
 
 #box-3 {
     background-color: var(--verdigris);
+    flex: 1;
 }
 
 #box-4 {
-    background-color: var(--alabaster);
+    background-color: var(--bittersweet);
+    flex: 1;
 }

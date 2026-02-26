@@ -25,20 +25,20 @@ body {
 }
 
 main {
-    flex: 1;
     padding: 70px;
+    flex: 1;
 }
 
 nav {
     background-color: var(--verdigris);
     padding: 8px;
+
 }
 
 nav ul {
     display: flex;
     gap: 20px;
     list-style: none;
-
 }
 
 nav a {
