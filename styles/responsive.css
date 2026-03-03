@@ -28,12 +28,12 @@
     height: 25%;
 }
 
-/* #coffe-container {
+#coffe-container {
     width: 30%;
-} */
+}
 
 #responsive-coffee-img {
-    width: 50vw;
+    width: 100%;
     height: auto;
     display: block;
 }
