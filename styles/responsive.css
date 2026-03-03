@@ -1,0 +1,72 @@
+#rem-text {
+    font-size: 1rem;
+}
+
+#responsive-container {
+    border: 1px solid black;
+    width: 50vw;
+    height: 50vh;
+}
+
+#vw-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: var(--bittersweet);
+    width: 20vw;
+    height: 20vh;
+}
+
+#procent-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: var(--verdigris);
+    width: 25%;
+    height: 25%;
+}
+
+/* #coffe-container {
+    width: 30%;
+} */
+
+#responsive-coffee-img {
+    width: 50vw;
+    height: auto;
+    display: block;
+}
+
+/* 
+
+Tumregel
+
+min-width = större än eller lika med
+
+max-width = mindre än eller lika med
+
+*/
+
+@media screen and (max-width:1024px) {
+    main {
+        background-color: rgba(255, 0, 0, 0.443);
+    }
+
+    #responsive-container {
+        width: 30vw;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:640px) {
+    main {
+        background-color: rgba(93, 18, 233, 0.496);
+    }
+
+    #responsive-container {
+        width: 20vw;
+        height: 20vh;
+    }
+
+}

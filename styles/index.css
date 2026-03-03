@@ -1,4 +1,9 @@
-.card-container {}
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
 
 .card {
     margin-bottom: 8px;
@@ -14,4 +19,25 @@
 .bittersweet {
     background-color: var(--bittersweet-25);
     border: 2px solid var(--bittersweet);
+}
+
+@media screen and (max-width:1024px) {
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:640px) {
+    main {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
 }

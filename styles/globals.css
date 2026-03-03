@@ -17,6 +17,11 @@
     --alabaster-50: rgb(230 235 224 / 50%);
 }
 
+/* Exempel på hur man kan ändra 1rem från 16px till 32px */
+/* html {
+    font-size: 32px
+} */
+
 body {
     height: 100%;
     min-height: 100vh;
@@ -65,11 +70,6 @@ nav a:hover {
 figure {
     margin: 0;
     padding-left: 300px;
-}
-
-img {
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px #a2a2a2;
 }
 
 footer {
