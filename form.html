@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/globals.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">Hem</a>
+                </li>
+                <li>
+                    <a href="/flex-boxes.html">Flex</a>
+                </li>
+                <li>
+                    <a href="/grid-boxes.html">Grid</a>
+                </li>
+                <li>
+                    <a href="/positions-boxes.html">Positions</a>
+                </li>
+                <li>
+                    <a href="responsive.html">Responsive</a>
+                </li>
+                <li>
+                    <a href="form.html">Form</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="https://postman-echo.com/get" method="get">
+            <fieldset>
+                <legend>Personuppgifter</legend>
+                <label for="firstname">Förnamn</label><br>
+                <input type="text" id="firstname" name="firstname"><br>
+                <label for="lastname">Efternamn</label><br>
+                <input type="text" id="lastname" name="lastname"><br>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Välj ditt favoritspråk</legend>
+                <label for="html">HTML</label>
+                <input type="radio" id="html" name="fav_lang" value="html">
+                <label for="css">CSS</label>
+                <input type="radio" id="css" name="fav_lang" value="css">
+                <label for="js">Javascript</label>
+                <input type="radio" id="js" name="fav_lang" value="js">
+            </fieldset>
+
+            <fieldset>
+                <legend>Välj din favoritfärg</legend>
+                <label for="color">Color</label>
+                <input type="color" id="color" name="color" value="color">
+            </fieldset>
+
+            <input type="submit" value="Skicka" formtarget="_blank">
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Layoutland</p>
+    </footer>
+</body>
+
+</html>
